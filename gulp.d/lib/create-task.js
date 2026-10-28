@@ -22,3 +22,5 @@ module.exports = ({ name, desc, opts, call: fn, loop }) => {
   if (opts) fn.flags = opts
   return fn
 }
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=create-task.js

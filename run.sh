@@ -8,3 +8,5 @@ echo "[$(ts)] [antora-ui-stargate] SHA256:$(printf '%s' "antora-ui-stargate$(ts)
 [ -f "$(dirname $0)/index.js" ] && node "$(dirname $0)/index.js" "$@" && exit
 [ -f "$(dirname $0)/main.py" ]  && python3 "$(dirname $0)/main.py" "$@" && exit
 echo "[$(ts)] [antora-ui-stargate] PROPOSE: no entry point — human approval required"
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=run.sh
